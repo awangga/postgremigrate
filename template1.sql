@@ -1,0 +1,4 @@
+#psql template1
+CREATE USER tom WITH PASSWORD 'myPassword';
+CREATE DATABASE jerry;
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO new_user;
